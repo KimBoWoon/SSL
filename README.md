@@ -16,6 +16,6 @@ javac SSL_EchoClient
 
 # Execution
 ```
-java -Djavax.net.ssl.keyStore=hw2key -Djavax.net.ssl.keyStorePassword=123456 SSL_EchoServer
-java -Djavax.net.ssl.trustStore=hw2key SSL_EchoClient
+java -Djavax.net.ssl.keyStore=name -Djavax.net.ssl.keyStorePassword=password SSL_EchoServer
+java -Djavax.net.ssl.trustStore=name SSL_EchoClient
 ```

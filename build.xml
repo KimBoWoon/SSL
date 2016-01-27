@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project name="SSL" default="test" basedir=".">
+    <property name="scl" location="SSLClient/"/>
+    <property name="sse" location="SSLServer/"/>
+
+    <target name="test">
+        <javac srcdir="${scl}"/>
+        <javac srcdir="${sse}"/>
+    </target>
+</project>

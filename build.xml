@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="SSL" default="test" basedir=".">
     <property name="scl" location="SSLClient/"/>
-    <property name="sse" location="SSLServer/"/>
+    <property name="sse" location="SSLSever/"/>
 
     <target name="test">
         <javac srcdir="${scl}"/>
